@@ -6,7 +6,7 @@
 
 - 应用设计
 
-经过两天的查找、对比、筛选最终选择了包括网易云音乐在内的五个音乐播放器([1](http://music.163.com/)、[2](http://htmlpreview.github.io/?https://github.com/zy-1995/doubanMusic/blob/master/index.html)、[3](http://juniortour.net/master-pieces/js/audio-player/index.html)、[4](http://music.b-sirius.me/)、[5](https://ife2017.github.io/doubanfm/)为原型，集各家之所长(当然指的是我个人喜欢的部分，嘻嘻)，设计了我的Web音乐播放器原型,如下图所示:
+经过两天的查找、对比、筛选最终选择了包括网易云音乐在内的五个音乐播放器([1](http://music.163.com/)、[2](http://htmlpreview.github.io/?https://github.com/zy-1995/doubanMusic/blob/master/index.html)、[3](http://juniortour.net/master-pieces/js/audio-player/index.html)、[4](http://music.b-sirius.me/)、[5](https://ife2017.github.io/doubanfm/))为原型，集各家之所长(当然指的是我个人喜欢的部分，嘻嘻)，设计了我的Web音乐播放器原型,如下图所示:
 
 
 - 功能分析：
