@@ -1,0 +1,49 @@
+/*初始化样式*/
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+/*页面主色调*/
+@base-color:#303841;
+@com-color:#2e4750;
+@bri-color:#f6C90e;
+@lig-color:#f7f7f7;
+
+/*网格视图*/
+.col-1 {width:100%*(1/12);}
+.col-2 {width:100%*(2/12);}
+.col-3 {width:100%*(3/12);}
+.col-4 {width:100%*(4/12);}
+.col-5 {width:100%*(5/12);}
+.col-6 {width:100%*(6/12);}
+.col-7 {width:100%*(7/12);}
+.col-8 {width:100%*(8/12);}
+.col-9 {width:100%*(9/12);}
+.col-10 {width:100%*(10/12);}
+.col-11 {width:100%*(11/12);}
+.col-12 {width:100%*(12/12);}
+
+/*浮动*/
+.float-l{float:left;};
+.float-r{float:right};
+
+/*公共样式*/
+body{
+  background:@base-color;
+  color:@lig-color;
+  font-family:FontAwesome;
+}
+li{
+  list-style:none;
+}
+#app{
+  width:923px;
+  height:490px;
+  background:@com-color;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
