@@ -5,16 +5,54 @@
     <title>MusicDetail</title>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/MusicDetail.css">
+    <link rel="stylesheet" href="./lib/css/font-awesome.min.css">
 </head>
 <body>
-<div id="app" class="col-12">
+<div id="app">
     <div class="float-l col-6">
-      dcccccccccccccccccccccccc
+        <div class="rotate">
+            <img src="" alt="">
+        </div>
+        <div class="btn clear">
+            <div class="like float-l"><i class="icon-heart"></i>喜欢</div>
+            <div class="collect float-l"><i class="icon-plus-sign"></i>收藏</div>
+            <div class="download float-l"><i class="icon-download-alt"></i>下载</div>
+            <div class="share float-l"><i class="icon-share"></i>分享</div>
+        </div>
     </div>
     <div class="float-r col-6">
-        roamjdnxsncn
+        <div class="title font-26">Just Dance</div>
+        <div class="album float-l">专辑:<label>Just Dance</label></div>
+        <div class="singer float-l">歌手:<label>Lady Gaga</label></div>
+        <div class="lyric">
+            <p>Just Dance gonna be okay d d d dance<br>担心不如跳舞</p>
+            <p>Just Dance gonna be okay d d d dance<br>担心不如跳舞</p>
+            <p>Just Dance gonna be okay d d d dance<br>担心不如跳舞</p>
+            <p>Just Dance gonna be okay d d d dance<br>担心不如跳舞</p>
+        </div>
     </div>
-    can
+    <canvas class="visualizer" width="920" height="165" style="display:none;"></canvas>
+    <div class="audio">
+        <div class="controler col-3 float-l">
+            <div class="pre float-l col-4"><i class="icon-backward"></i></div>
+            <div class="play float-l col-4"><i class="icon-play"></i></div>
+            <div class="next float-l col-4"><i class="icon-forward"></i></div>
+        </div>
+        <div class="process col-9 float-r">
+            <div class="musicMessage clear">
+                <span class="songTitle float-l">我的心里只有你没有他(Live)</span>
+                <span class="songTime float-r">01:34</span>
+            </div>
+            <div class="processBar">
+                <div class="processLight"></div>
+                <div class="processCircle"></div>
+            </div>
+            <div class="setting">
+                <div class="circle"><i class="icon-random"></i></div>
+                <div class="volume"><i class="icon-volume-up"></i></div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
